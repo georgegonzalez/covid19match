@@ -24,7 +24,7 @@ Vue.use(VueRouter)
     path: '/privacy',
     name: 'Privacy',
     component: function () {
-      return import(/* webpackChunkName: "about" */ '../views/Privacy.vue')
+      return import(/* webpackChunkName: "privacy" */ '../views/Privacy.vue')
     }
   }
 ]
